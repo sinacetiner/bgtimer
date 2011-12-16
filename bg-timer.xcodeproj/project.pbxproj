@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C2BB72149BED0000B9A65D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2BB71149BED0000B9A65D /* UIKit.framework */; };
+		F2C2BB74149BED0000B9A65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2BB73149BED0000B9A65D /* Foundation.framework */; };
+		F2C2BB76149BED0000B9A65D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2BB75149BED0000B9A65D /* CoreGraphics.framework */; };
+		F2C2BB78149BED0000B9A65D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2BB77149BED0000B9A65D /* CoreData.framework */; };
+		F2C2BB7E149BED0000B9A65D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2C2BB7C149BED0000B9A65D /* InfoPlist.strings */; };
+		F2C2BB80149BED0000B9A65D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2BB7F149BED0000B9A65D /* main.m */; };
+		F2C2BB84149BED0000B9A65D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2BB83149BED0000B9A65D /* AppDelegate.m */; };
+		F2C2BB87149BED0000B9A65D /* bg_timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2C2BB85149BED0000B9A65D /* bg_timer.xcdatamodeld */; };
+		F2C2BB8F149BED0000B9A65D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2BB8E149BED0000B9A65D /* SenTestingKit.framework */; };
+		F2C2BB90149BED0000B9A65D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2BB71149BED0000B9A65D /* UIKit.framework */; };
+		F2C2BB91149BED0000B9A65D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2BB73149BED0000B9A65D /* Foundation.framework */; };
+		F2C2BB92149BED0000B9A65D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2BB77149BED0000B9A65D /* CoreData.framework */; };
+		F2C2BB9A149BED0000B9A65D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2C2BB98149BED0000B9A65D /* InfoPlist.strings */; };
+		F2C2BB9D149BED0000B9A65D /* bg_timerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C2BB9C149BED0000B9A65D /* bg_timerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2C2BB93149BED0000B9A65D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2C2BB64149BECFF00B9A65D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2C2BB6C149BED0000B9A65D;
+			remoteInfo = "bg-timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2C2BB6D149BED0000B9A65D /* bg-timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bg-timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C2BB71149BED0000B9A65D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2C2BB73149BED0000B9A65D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2C2BB75149BED0000B9A65D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2C2BB77149BED0000B9A65D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F2C2BB7B149BED0000B9A65D /* bg-timer-Info.plist */ = {isa = PBXFileReference; path = "bg-timer-Info.plist"; sourceTree = "<group>"; };
+		F2C2BB7D149BED0000B9A65D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2C2BB7F149BED0000B9A65D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2C2BB81149BED0000B9A65D /* bg-timer-Prefix.pch */ = {isa = PBXFileReference; path = "bg-timer-Prefix.pch"; sourceTree = "<group>"; };
+		F2C2BB82149BED0000B9A65D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2C2BB83149BED0000B9A65D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2C2BB86149BED0000B9A65D /* bg_timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bg_timer.xcdatamodel; sourceTree = "<group>"; };
+		F2C2BB8D149BED0000B9A65D /* bg-timerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bg-timerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C2BB8E149BED0000B9A65D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F2C2BB97149BED0000B9A65D /* bg-timerTests-Info.plist */ = {isa = PBXFileReference; path = "bg-timerTests-Info.plist"; sourceTree = "<group>"; };
+		F2C2BB99149BED0000B9A65D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2C2BB9B149BED0000B9A65D /* bg_timerTests.h */ = {isa = PBXFileReference; path = bg_timerTests.h; sourceTree = "<group>"; };
+		F2C2BB9C149BED0000B9A65D /* bg_timerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bg_timerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C2BB6A149BED0000B9A65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2BB72149BED0000B9A65D /* UIKit.framework in Frameworks */,
+				F2C2BB74149BED0000B9A65D /* Foundation.framework in Frameworks */,
+				F2C2BB76149BED0000B9A65D /* CoreGraphics.framework in Frameworks */,
+				F2C2BB78149BED0000B9A65D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BB89149BED0000B9A65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2BB8F149BED0000B9A65D /* SenTestingKit.framework in Frameworks */,
+				F2C2BB90149BED0000B9A65D /* UIKit.framework in Frameworks */,
+				F2C2BB91149BED0000B9A65D /* Foundation.framework in Frameworks */,
+				F2C2BB92149BED0000B9A65D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2C2BB62149BECFF00B9A65D = {
+			isa = PBXGroup;
+			children = (
+				F2C2BB79149BED0000B9A65D /* bg-timer */,
+				F2C2BB95149BED0000B9A65D /* bg-timerTests */,
+				F2C2BB70149BED0000B9A65D /* Frameworks */,
+				F2C2BB6E149BED0000B9A65D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C2BB6E149BED0000B9A65D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2BB6D149BED0000B9A65D /* bg-timer.app */,
+				F2C2BB8D149BED0000B9A65D /* bg-timerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C2BB70149BED0000B9A65D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2BB71149BED0000B9A65D /* UIKit.framework */,
+				F2C2BB73149BED0000B9A65D /* Foundation.framework */,
+				F2C2BB75149BED0000B9A65D /* CoreGraphics.framework */,
+				F2C2BB77149BED0000B9A65D /* CoreData.framework */,
+				F2C2BB8E149BED0000B9A65D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C2BB79149BED0000B9A65D /* bg-timer */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2BB82149BED0000B9A65D /* AppDelegate.h */,
+				F2C2BB83149BED0000B9A65D /* AppDelegate.m */,
+				F2C2BB85149BED0000B9A65D /* bg_timer.xcdatamodeld */,
+				F2C2BB7A149BED0000B9A65D /* Supporting Files */,
+			);
+			path = "bg-timer";
+			sourceTree = "<group>";
+		};
+		F2C2BB7A149BED0000B9A65D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2BB7B149BED0000B9A65D /* bg-timer-Info.plist */,
+				F2C2BB7C149BED0000B9A65D /* InfoPlist.strings */,
+				F2C2BB7F149BED0000B9A65D /* main.m */,
+				F2C2BB81149BED0000B9A65D /* bg-timer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2C2BB95149BED0000B9A65D /* bg-timerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2BB9B149BED0000B9A65D /* bg_timerTests.h */,
+				F2C2BB9C149BED0000B9A65D /* bg_timerTests.m */,
+				F2C2BB96149BED0000B9A65D /* Supporting Files */,
+			);
+			path = "bg-timerTests";
+			sourceTree = "<group>";
+		};
+		F2C2BB96149BED0000B9A65D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2BB97149BED0000B9A65D /* bg-timerTests-Info.plist */,
+				F2C2BB98149BED0000B9A65D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C2BB6C149BED0000B9A65D /* bg-timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C2BBA0149BED0000B9A65D /* Build configuration list for PBXNativeTarget "bg-timer" */;
+			buildPhases = (
+				F2C2BB69149BED0000B9A65D /* Sources */,
+				F2C2BB6A149BED0000B9A65D /* Frameworks */,
+				F2C2BB6B149BED0000B9A65D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bg-timer";
+			productName = "bg-timer";
+			productReference = F2C2BB6D149BED0000B9A65D /* bg-timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2C2BB8C149BED0000B9A65D /* bg-timerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C2BBA3149BED0000B9A65D /* Build configuration list for PBXNativeTarget "bg-timerTests" */;
+			buildPhases = (
+				F2C2BB88149BED0000B9A65D /* Sources */,
+				F2C2BB89149BED0000B9A65D /* Frameworks */,
+				F2C2BB8A149BED0000B9A65D /* Resources */,
+				F2C2BB8B149BED0000B9A65D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2C2BB94149BED0000B9A65D /* PBXTargetDependency */,
+			);
+			name = "bg-timerTests";
+			productName = "bg-timerTests";
+			productReference = F2C2BB8D149BED0000B9A65D /* bg-timerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C2BB64149BECFF00B9A65D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F2C2BB67149BECFF00B9A65D /* Build configuration list for PBXProject "bg-timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2C2BB62149BECFF00B9A65D;
+			productRefGroup = F2C2BB6E149BED0000B9A65D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C2BB6C149BED0000B9A65D /* bg-timer */,
+				F2C2BB8C149BED0000B9A65D /* bg-timerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C2BB6B149BED0000B9A65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2BB7E149BED0000B9A65D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BB8A149BED0000B9A65D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2BB9A149BED0000B9A65D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F2C2BB8B149BED0000B9A65D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C2BB69149BED0000B9A65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2BB80149BED0000B9A65D /* main.m in Sources */,
+				F2C2BB84149BED0000B9A65D /* AppDelegate.m in Sources */,
+				F2C2BB87149BED0000B9A65D /* bg_timer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C2BB88149BED0000B9A65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C2BB9D149BED0000B9A65D /* bg_timerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2C2BB94149BED0000B9A65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2C2BB6C149BED0000B9A65D /* bg-timer */;
+			targetProxy = F2C2BB93149BED0000B9A65D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2C2BB7C149BED0000B9A65D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C2BB7D149BED0000B9A65D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2C2BB98149BED0000B9A65D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C2BB99149BED0000B9A65D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C2BB9E149BED0000B9A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C2BB9F149BED0000B9A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C2BBA1149BED0000B9A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bg-timer/bg-timer-Prefix.pch";
+				INFOPLIST_FILE = "bg-timer/bg-timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2C2BBA2149BED0000B9A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bg-timer/bg-timer-Prefix.pch";
+				INFOPLIST_FILE = "bg-timer/bg-timer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2C2BBA4149BED0000B9A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bg-timer.app/bg-timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bg-timer/bg-timer-Prefix.pch";
+				INFOPLIST_FILE = "bg-timerTests/bg-timerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F2C2BBA5149BED0000B9A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bg-timer.app/bg-timer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bg-timer/bg-timer-Prefix.pch";
+				INFOPLIST_FILE = "bg-timerTests/bg-timerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C2BB67149BECFF00B9A65D /* Build configuration list for PBXProject "bg-timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2BB9E149BED0000B9A65D /* Debug */,
+				F2C2BB9F149BED0000B9A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C2BBA0149BED0000B9A65D /* Build configuration list for PBXNativeTarget "bg-timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2BBA1149BED0000B9A65D /* Debug */,
+				F2C2BBA2149BED0000B9A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2C2BBA3149BED0000B9A65D /* Build configuration list for PBXNativeTarget "bg-timerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C2BBA4149BED0000B9A65D /* Debug */,
+				F2C2BBA5149BED0000B9A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2C2BB85149BED0000B9A65D /* bg_timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2C2BB86149BED0000B9A65D /* bg_timer.xcdatamodel */,
+			);
+			currentVersion = F2C2BB86149BED0000B9A65D /* bg_timer.xcdatamodel */;
+			path = bg_timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2C2BB64149BECFF00B9A65D /* Project object */;
+}
