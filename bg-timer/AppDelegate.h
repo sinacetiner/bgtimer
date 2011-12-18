@@ -16,7 +16,10 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
+@property (readwrite, nonatomic) UIBackgroundTaskIdentifier bgTask;
+
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
 
 @end
