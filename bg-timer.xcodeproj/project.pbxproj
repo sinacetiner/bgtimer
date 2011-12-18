@@ -39,18 +39,18 @@
 		F2C2BB73149BED0000B9A65D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2C2BB75149BED0000B9A65D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F2C2BB77149BED0000B9A65D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F2C2BB7B149BED0000B9A65D /* bg-timer-Info.plist */ = {isa = PBXFileReference; path = "bg-timer-Info.plist"; sourceTree = "<group>"; };
+		F2C2BB7B149BED0000B9A65D /* bg-timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bg-timer-Info.plist"; sourceTree = "<group>"; };
 		F2C2BB7D149BED0000B9A65D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2C2BB7F149BED0000B9A65D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2C2BB81149BED0000B9A65D /* bg-timer-Prefix.pch */ = {isa = PBXFileReference; path = "bg-timer-Prefix.pch"; sourceTree = "<group>"; };
-		F2C2BB82149BED0000B9A65D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2C2BB81149BED0000B9A65D /* bg-timer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bg-timer-Prefix.pch"; sourceTree = "<group>"; };
+		F2C2BB82149BED0000B9A65D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2C2BB83149BED0000B9A65D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F2C2BB86149BED0000B9A65D /* bg_timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bg_timer.xcdatamodel; sourceTree = "<group>"; };
 		F2C2BB8D149BED0000B9A65D /* bg-timerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bg-timerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C2BB8E149BED0000B9A65D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F2C2BB97149BED0000B9A65D /* bg-timerTests-Info.plist */ = {isa = PBXFileReference; path = "bg-timerTests-Info.plist"; sourceTree = "<group>"; };
+		F2C2BB97149BED0000B9A65D /* bg-timerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bg-timerTests-Info.plist"; sourceTree = "<group>"; };
 		F2C2BB99149BED0000B9A65D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F2C2BB9B149BED0000B9A65D /* bg_timerTests.h */ = {isa = PBXFileReference; path = bg_timerTests.h; sourceTree = "<group>"; };
+		F2C2BB9B149BED0000B9A65D /* bg_timerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bg_timerTests.h; sourceTree = "<group>"; };
 		F2C2BB9C149BED0000B9A65D /* bg_timerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bg_timerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
