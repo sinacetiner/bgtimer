@@ -74,6 +74,7 @@
         [app endBackgroundTask:bgTask];
         bgTask = UIBackgroundTaskInvalid;
         
+        
         bgTask = [app beginBackgroundTaskWithExpirationHandler:expirationHandler];
     };
     
