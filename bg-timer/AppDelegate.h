@@ -20,6 +20,6 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
-
+- (void) schedulePeriodicJob:(UIApplication *)application;
 
 @end

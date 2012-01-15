@@ -21,12 +21,33 @@
 {
     NSLog(@"PROGRAM STARTED");
     
-    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    [self schedulePeriodicJob:application];
     return YES;
+}
+
+- (void) schedulePeriodicJob:(UIApplication *)application
+{
+    NSLog(@"schedulePeriodicJob");
+    
+    application.applicationIconBadgeNumber = 0;
+    UILocalNotification *local = [[UILocalNotification alloc] init];
+    
+    local.fireDate = [NSDate dateWithTimeIntervalSinceNow:10];
+    local.timeZone = [NSTimeZone defaultTimeZone];
+    
+    local.alertBody = @"Hello! i’m a local notification";
+    local.alertAction = @"View";
+    
+    local.applicationIconBadgeNumber = 1;
+    
+    NSDictionary *customInfo = [NSDictionary dictionaryWithObject:@"Black" forKey:@"Color"];
+    local.userInfo = customInfo;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:local];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
